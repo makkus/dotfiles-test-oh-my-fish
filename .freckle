@@ -7,7 +7,12 @@
 # 'ansible-tasks' adapter doesn't really need to be here,
 # but next version of freckelize will support 'auto-detection' of profiles
 # which means instead of executing:
-# freckelize -f gh:makkus/dotfiles dotfiles ansible=tasks
+#
+#    freckelize -f gh:makkus/dotfiles dotfiles ansible=tasks
+#
 # this will be enough (if the adapters are specified in .freckle:
-# freckelize -f gh:makkus/dotfiles
+#
+#    freckelize -f gh:makkus/dotfiles
+#
+
 - ansible-tasks
