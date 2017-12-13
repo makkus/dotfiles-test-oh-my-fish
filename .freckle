@@ -4,6 +4,13 @@
       - curl
       # - fish -> we don't need to specify this here, as freckelize just uses the 'fish' folder name anyay
 
+- dotfiles:
+    pkg_mgr: git
+    packages:
+      - oh-my-zsh:
+          dest: ~/.local/share/omf
+          repo: https://github.com/oh-my-fish/oh-my-fish
+
 # 'ansible-tasks' adapter doesn't really need to be here,
 # but next version of freckelize will support 'auto-detection' of profiles
 # which means instead of executing:

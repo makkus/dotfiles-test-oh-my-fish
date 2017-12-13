@@ -1,2 +1,2 @@
 - name: 'installing oh-my-fish'
-  shell: "curl -L https://get.oh-my.fish | fish"
+  shell: "~/.local/share/omf/bin/install --noninteractive --offline"
