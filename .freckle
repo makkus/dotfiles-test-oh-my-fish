@@ -1,0 +1,13 @@
+- dotfiles:
+    pkg_mgr: auto
+    packages:
+      - curl
+      # - fish -> we don't need to specify this here, as freckelize just uses the 'fish' folder name anyay
+
+# 'ansible-tasks' adapter doesn't really need to be here,
+# but next version of freckelize will support 'auto-detection' of profiles
+# which means instead of executing:
+# freckelize -f gh:makkus/dotfiles dotfiles ansible=tasks
+# this will be enough (if the adapters are specified in .freckle:
+# freckelize -f gh:makkus/dotfiles
+- ansible-tasks

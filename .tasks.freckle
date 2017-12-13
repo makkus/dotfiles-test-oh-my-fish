@@ -1,0 +1,2 @@
+- name: 'installing oh-my-fish'
+  command: "curl -L https://get.oh-my.fish | fish"
