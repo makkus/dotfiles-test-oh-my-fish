@@ -8,7 +8,7 @@
     pkg_mgr: git
     packages:
       - oh-my-zsh:
-          dest: ~/.local/share/omf
+          dest: ~/.local/share/omf-installer
           repo: https://github.com/oh-my-fish/oh-my-fish
 
 # 'ansible-tasks' adapter doesn't really need to be here,
